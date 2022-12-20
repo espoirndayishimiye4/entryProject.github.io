@@ -16,12 +16,12 @@
     background-color:white;
 }
 .header-left{
-    margin-left:5%
+    margin-left:5%;
 
 }
 .header-right{
     width:20%;
-    margin-left:70%
+    margin-left:70%;
 }
 .photo{
     height:100px;
@@ -42,13 +42,13 @@ p{
 
 .position{
     font-weight:bold;
-    font-size:20px
+    font-size:20px;
 }
 .time{
     font-size:12px;
 }
 .n{
-    height:200px
+    height:200px;
 }
 .right-content{
     width:20%;
@@ -58,7 +58,7 @@ p{
 }
 
 .item-title {
-    font-weight:bold
+    font-weight:bold;
 }
 @media only screen and (max-width: 900px) {
     .right-content{
@@ -79,6 +79,6 @@ p{
   }
   a{
     text-decoration:none;
-    color:black
+    color:black;
   }
 
