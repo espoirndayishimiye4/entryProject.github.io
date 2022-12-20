@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            <div class="header-left">
+               <a href="#" id="myname" onclick="changeColor()"> <h1>Espoir Ndayishimiye</h1> </a>
+                <h3 id="myname">Software Developer</h3>
+            </div>
+            <div class="header-right">
+                <img class="photo" src="image/Espoir Passport.jpg" alt="">
+            </div>
+        </div>
+        <div class="n">n</div>
+        <div class="content">
+            <div class="left-content">
+                <p class="title">Experience</p>
+                <p class="position">Digital Situation Facilitator</p>
+                <p class="company">Kayonza District</p>
+                <p class="time">October 2022 - Present - 2 monts, Kayonza</p>
+                <p class="description">  Imihigo program Digitalization <br>
+                                        System requirement recommendation to RISA <br>
+                                        Data collection and form creation
+                                    </p>
+                                     <br>
+                <p class="position">Software developer (Part-time)</p>
+                <p class="company">Universal Bridge</p>
+                <p class="time">feb 2019 - Jan 2020 - 1 year, Kigali</p>
+                <p class="description">Website Development.
+                    <br> Client Negotiation 
+                    Database Management.</p>
+                    <br>
+                    
+                <p class="position">Software developer</p>
+                <p class="company">Sator Rwanda</p>
+                <p class="time">May 2021 - May 2021 - 1 year, Kigali</p>
+                <p class="description">Developed Certificate Imitation Record system.
+                    <br> Contributed in development of GPS tracking system using
+                    ReactJS and NodeJS with MYSQL database.</p>
+                    <br>
+                    
+                    <p class="position">Software developer Intern</p>
+                    <p class="company">Igihe Ltd</p>
+                    <p class="time">Jul 2018 - Sept 2018 - 3 months, Kigali</p>
+                    <p class="description">Develop Mockups
+                        <br> Website Development
+                        Database Management.</p>
+                        
+                <br>
+                <p class="title">Education</p>
+                <p class="position">Bachelor in Computer Science</p>
+                <p class="company">University Of Rwanda</p>
+                <p class="time">Aug 2018 - Present - 1 year, Paris</p>
+                <p class="description">Directly collaborated with CEO and Product team to prototype,
+                    design and deliver the UI and UX experience with a lean design
+                    process: research, design, test, and iterate.</p>
+                    <br>
+                
+                <p class="position">Diploma in Computer Science</p>
+                <p class="company">ES Mulindi</p>
+                <p class="time">Aug 2018 - Present - 1 year, Paris</p>
+                <p class="description">Directly collaborated with CEO and Product team to prototype,
+                    design and deliver the UI and UX experience with a lean design
+                    process: research, design, test, and iterate.</p>
+                    <br>
+            </div>
+            <div class="right-content">
+                <p class="email">espoirndayishimiye4@gmail.com</p>
+                <p class="phone">+250 787 958 407</p>
+                <p class="address">Kigali-Rwanda</p>
+                <br>
+                <p class="item-title">Industry Knowledge</p>
+                <p class="item">Product Design</p>
+                <p class="item">User Interface</p>
+                <p class="item">User Experience</p>
+                <p class="item">Interaction Design</p>
+                <p class="item">Wireframing</p>
+                <p class="item">Rapid Prototyping</p>
+                <p class="item">Design Research</p>
+                <br>
+                <p class="item-title">Tools & Technologies</p>
+                <p class="item">Figma, Sketch, Protopie,</p>
+                <p class="item">Framer, Invision, Abstract, </p>
+                <p class="item">Zeplin, Google Analytics, </p>
+                <p class="item">Amplitude, Fullstory...</p>
+                <br>
+                <p class="item-title">Other Skills</p>
+                <p class="item">HTML, CSS, jQuery</p>
+                <br>
+                <p class="item-title">Languages</p>
+                <p class="item">French (native)</p>
+                <p class="item">English (professionnal)</p>
+                <br>
+                <p class="item-title">Social</p>
+                <p class="item">French (native)</p>
+                <p class="item">English (professionnal)</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    function changeColor(){
+        var color, symbols;
+        symbols="0123456789ABCDEF";
+
+        color="#"
+        for(var i= 0; i < 6; i++){
+            color = color + symbols[Math.floor(Math.random() * 16)];
+        }
+        document.body.style.color = color;
+    }
+</script>
+
+</html>
